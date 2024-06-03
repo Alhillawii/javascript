@@ -82,18 +82,35 @@ console.log(1 === '1');
 
 //task3//
 let text = "Welcome to Orange"
- console.log(text.toUpperCase());
-
-
-
-
-
-
+console.log(text.toUpperCase())
+console.log(text.slice(8,10).toUpperCase())
+console.log(text.replace("Welcome", "Hello from"));
+console.log(text.toLowerCase());
+console.log(text.length);
+console.log(text.replace("Orange", "\" Orange \""));
+console.log(text+" Jordan")
 
 
  //task4//
  window.alert("welcome");
 
+ //task5//
+ let string1 = "Hello";
+ console.log(string1);
+let number = 77;
+console.log(number1);
+let boolean1 = true;
+console.log(boolean1);
+let array1 = [1, 2, 3,"zaina"];
+console.log(array1);
+let object1 = { name: "zaina", age: 20 };
+console.log(object1);
+
+//tassk6//
+console.log("ayah")
+if (true) {
+    var varValue = "This is a var variable";
+}
  //task7//
 
  let a = 10;
@@ -110,6 +127,9 @@ let text = "Welcome to Orange"
  console.log(a != b);
  console.log(a >= b);
  console.log(a <= b);
+ console.log("AND:", a && b);
+ console.log("OR:", a || b);
+ console.log("NOT:", !a && !b);
  console.log(a += 5);
  console.log(a -= 5);
  console.log(a *= 2);
